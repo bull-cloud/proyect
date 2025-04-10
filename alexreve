@@ -1,0 +1,21 @@
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+ 
+public class reveriego {
+    private static void mostrarEntrada(Diario dir) throws IOException {
+        File fil=new File("Diario.txt");
+        FileReader fr=new FileReader(fil);
+        BufferedReader br=new BufferedReader(fr);
+        String linea=br.readLine();
+        while(linea!=null) {
+            System.out.println(linea);
+            System.out.println(br.readLine());
+            System.out.println(br.readLine());
+           
+            System.out.println(br.readLine());
+            linea=br.readLine();
+        }
+    }
+}
