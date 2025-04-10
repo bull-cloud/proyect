@@ -25,6 +25,7 @@ public String getDificultdes() {
 
 public void setDificultdes(String dificultdes) {
 	this.dificultdes = dificultdes;
+	//soy un flipao firmado H,;,
 }
 
 public String getHerramientas() {
