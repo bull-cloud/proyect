@@ -39,8 +39,8 @@ public LocalDate getFechaCambio() {
 	return fechaCambio;
 }
 
-public void setFechaCambio(LocalDate fechaCambio) {
-	this.fechaCambio = fechaCambio;
+public void setFechaCambio() {
+	fechaCambio =LocalDate.now();
 }
 
 
